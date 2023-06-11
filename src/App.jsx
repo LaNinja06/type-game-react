@@ -8,7 +8,7 @@ import React, {useState, useEffect} from "react"
  */
 
 function App() {
-    const TIME_LEFT = 2
+    const TIME_LEFT = 10
     const [text, setText] = useState("")
     const [timeRemaining, setTimeRemaining] = useState(TIME_LEFT)
     const [isTimeRunning, setIsTimeRunning] = useState(false)
